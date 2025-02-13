@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .video {
+        flex: 1;
+        padding: 10px;
+    }
+    .image {
+        flex: 1;
+        padding: 10px;
+    }
+    .text {
+        flex: 1;
+        padding: 10px;
+    }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .text {
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-top: 5%;
+            padding-bottom: 5%;
+
+        }
+
+
+        .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        }
+        img {
+          max-width:  100%;
+          max-height: 100%;
+          padding-left: 5%;
+          padding-right: 5%;
+          margin: auto;
+        }
+        .center-fit {
+            max-width: 70%;
+            max-height: 70vh;
+            margin: auto;
+        }
+      .footer {
+         position: fixed;
+         left: 0;
+         bottom: 0;
+         width: 100%;
+         background-color: white;
+         color: red;
+         text-align: center;
+      }
+      </style>
+    <title>Project 1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+            <nav>
+                <ul>
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a href="NMECS.html">NMECS</a></li>
+                  <li><a href="gd.html">DESIGN</a></li>
+                  <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+              </nav>
+        <h2>How It All Started</h2>
+        <div class="container">
+            <div class="video">
+            <img src="https://media.discordapp.net/attachments/1201751531783991316/1338952723458031668/nmecsLogoRed.png?ex=67ae45e5&is=67acf465&hm=7abfd573442ba8db2884829666d3d40aa49757a313bdd90f78e05e111d01edda&=&format=webp&quality=lossless&width=1381&height=662" alt="NMECS Logo">
+            </div>
+            <div class="text">
+            <p>New Mexico Esports Championship Series (NMECS) started as an idea I had with my best friend of 18 years, Titus. We were up at midnight on a school night and we were joking about the idea, little did we know. We would end up creating something special. As ambitious as we were, we ensured that we wanted too make sure that we made this the best tournament this could be. We eventually secured a 1.5 year partnership with APS Esports who got this entire thing taken off, who we are still very grateful for.</p>
+            </div>
+        </div>
+        <h2>Us In Action</h2>
+        <div class="container">
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Drx8D8unIL0?si=DkdRdfMS8oDJ7ALi&amp;start=17045" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="text">
+                We have collaborated with so many different organizations over the years since NMECS was founded in 2021. We have covered the NMSU Esports Invitational for 2024 and it did not dissapoint. We are also one of the most innovating organizations in the southwest. Including the first org in New Mexico and possibly the region to have a custom overlay and a custom ball. The overlay shown in the video was made by LNDRLNDRLNDR, a coder from Belgium who has worked with top esports orgs. Including G1, PSG, and many more. We are pumped for what else the future will hold for us.
+            </div>
+            <!--NOTE: Youtube would not load for some reason...-->
+            </div>
+        <p id="currentTime"></p>
+        <div class="footer">
+            <p>@Sacksquerque | CS372</p>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

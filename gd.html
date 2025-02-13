@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .video {
+        flex: 1;
+        padding: 10px;
+    }
+    .image {
+        flex: 1;
+        padding: 10px;
+    }
+    .text {
+        flex: 1;
+        padding: 10px;
+    }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .text {
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-top: 5%;
+            padding-bottom: 5%;
+
+        }
+
+
+        .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        }
+        img {
+          max-width:  100%;
+          max-height: 100%;
+          padding-left: 5%;
+          padding-right: 5%;
+          margin: auto;
+        }
+        .center-fit {
+            max-width: 70%;
+            max-height: 70vh;
+            margin: auto;
+        }
+      .footer {
+         position: fixed;
+         left: 0;
+         bottom: 0;
+         width: 100%;
+         background-color: white;
+         color: red;
+         text-align: center;
+      }
+      </style>
+    <title>Project 1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+            <nav>
+                <ul>
+                  <li><a href="index.html">HOME</a></li>
+                  <li><a href="NMECS.html">NMECS</a></li>
+                  <li><a href="gd.html">DESIGN</a></li>
+                  <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+              </nav>
+        <h2>How It All Started</h2>
+        <div class="container">
+            <div class="image">
+            <img src="https://media.discordapp.net/attachments/668263223149199363/1339475125074001982/Logo.png?ex=67aedaec&is=67ad896c&hm=161fd31ed270f097a288676b1c86e37e3ff5a450891153852d4ede1bbf90788a&=&format=webp&quality=lossless&width=612&height=662" alt="Sacksquerque Logo">
+            </div>
+            <div class="text">
+            <p>I have been doing graphic design for over 5 years now. I started in Graphic Design I class in high school and is also the class where I came up with my username, and met one of my lifelong friends. I do a wide variety of designing, from logos to doing transistions and posters. My logo, pictured, is an "S", a reference to my username's first letter and the first letter of my name, is combined with a 6, which holds deep symbolism to me, in the form of a shield, as I think of myself to do good in this world.</p>
+            </div>
+        </div>
+        <h2>What I Do</h2>
+            <div class="container">
+                <img src="https://media.discordapp.net/attachments/668263223149199363/1339479432838250516/IMG_7623.jpg?ex=67aedeef&is=67ad8d6f&hm=e0674fb1b5b3b4683aaf3c852751c2603f5c1ebe6caab87393a0937cfeff46dc&=&format=webp&width=662&height=662">
+                <div class="text">
+                    <p>I do a wide variety of designing, from gameday posters to twitter banners, to Rocket League decals and logos. I am fully self taught and I am very proud of the work that I do on a daily basis. I think my story shows that if you put your mind anything, the places you will go are unbelivable.</p>
+                </div>
+            </div>
+        <p id="currentTime"></p>
+        <div class="footer">
+            <p>@Sacksquerque | CS372</p>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .video {
+        flex: 1;
+        padding: 10px;
+    }
+    .image {
+        flex: 1;
+        padding: 10px;
+    }
+    .text {
+        flex: 1;
+        padding: 10px;
+    }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .text {
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-top: 5%;
+            padding-bottom: 5%;
+
+        }
+
+
+        .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        }
+        img {
+          max-width:  100%;
+          max-height: 100%;
+          padding-left: 5%;
+          padding-right: 5%;
+          margin: auto;
+        }
+        .center-fit {
+            max-width: 70%;
+            max-height: 70vh;
+            margin: auto;
+        }
+      .footer {
+         position: fixed;
+         left: 0;
+         bottom: 0;
+         width: 100%;
+         background-color: white;
+         color: red;
+         text-align: center;
+      }
+      </style>
+    <title>Project 1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+    <body>
+        <nav>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="NMECS.html">NMECS</a></li>
+              <li><a href="gd.html">DESIGN</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+          </nav>
+        <div class="container">
+        <div class="text">
+            <h1>Contact Us</h1>
+            <p>For any questions or concerns, please contact me at:</p>
+            <p>Phone: +1 (555) 555-5555</p>
+            <p>Email: Sacksquerque@gmail.com</p>
+        </div>
+        <img src="https://media.discordapp.net/attachments/668263223149199363/1339475125074001982/Logo.png?ex=67aedaec&is=67ad896c&hm=161fd31ed270f097a288676b1c86e37e3ff5a450891153852d4ede1bbf90788a&=&format=webp&quality=lossless&width=612&height=662" alt="Sacksquerque Logo">
+            
+        <p id="currentTime"></p>
+        <script src="script.js"></script>
+        <div class="footer">
+          <p>@Sacksquerque | CS372</p>
+        </div>
+      </body>
+</html>

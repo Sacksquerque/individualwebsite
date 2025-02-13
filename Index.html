@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .image {
+        flex: 1;
+        padding: 10px;
+    }
+    .text {
+        flex: 1;
+        padding: 10px;
+    }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .text {
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-top: 5%;
+            padding-bottom: 5%;
+
+        }
+
+
+        .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        }
+        img {
+          max-width:  100%;
+          max-height: 100%;
+          padding-left: 5%;
+          padding-right: 5%;
+          margin: auto;
+        }
+        .center-fit {
+            max-width: 70%;
+            max-height: 70vh;
+            margin: auto;
+        }
+      .footer {
+         position: fixed;
+         left: 0;
+         bottom: 0;
+         width: 100%;
+         background-color: white;
+         color: red;
+         text-align: center;
+      }
+      </style>
+    <title>Project 1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+     <!-- General stuff here for the index.-->
+    <nav>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="NMECS.html">NMECS</a></li>
+        <li><a href="gd.html">DESIGN</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+    <h1>About Me</h1>
+    <div class="container">
+      <div class="image">
+      <img src="https://media.discordapp.net/attachments/668263223149199363/1339288630396715058/image0.jpg?ex=67ae2d3c&is=67acdbbc&hm=bc9838a482fa67d46be6ff1ae4d9c167b04ddc4007a8cc00b0ac525a3ded2c77&=&format=webp&width=883&height=662">
+      </div>
+      <div class="text">
+      My name is Scott. I am a student at New Mexico State University (NMSU). I am a second-year computer science major and I have enjoyed my time here at NMSU. This is my first time doing a web development class and as of now I seem to be enjoying it. Right now what you are looking at is my first Web project and right now this seems to be doing well.
+      </div>
+    </div>
+    <h1>Video Games</h1>
+    <div class="container">
+        <div class="text">
+          I have been playing Rocket League since 2020. I have also been able to make a bit of a career out of it as well. I co-founded the New Mexico Esports Championship Series with my friend of now 18 years, Titus. More on the NMECS page.
+        </div> 
+      </div>  
+      <h1>Sports</h1>
+      <div class="container">
+        <div class="image">  
+        <img src="https://media.discordapp.net/attachments/668263223149199363/1339455398842994742/IMG_7621.jpg?ex=67aec88c&is=67ad770c&hm=c1dab8d40961120d95837bcafb098cb813924d2035b174f399875c2cfb7b9611&=&format=webp&width=883&height=662">	
+        </div> 
+        <div class="text">
+          I grew up with sports teams and my parents have always been huge sports fans. My dad was born and raised in Denver, so he went for the Denver Broncos. My mom, born in St. Paul, Minnesota, cheers for the Vikings. I, somehow ended with the Jacksonville Jaguars. I say it's because I hate the Dallas Cowboys. I've been a fan of them for 12 years now and I have been to 7 NFL games. Including 2 preseason games, 4 regular season games, and 1 wild card game.
+        </div>
+        </div>
+    <p id="currentTime"></p>
+    <script src="script.js"></script>
+    <div class="footer">
+      <p>@Sacksquerque | CS372</p>
+    </div>
+  </body>
+</html>
